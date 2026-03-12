@@ -1,4 +1,4 @@
-{
+{ 
   "version": "1.0.0",
   "serviceName": "astra-ai-middleware",
   "runtime": "node20",
