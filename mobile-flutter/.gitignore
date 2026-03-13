@@ -1,0 +1,55 @@
+# --- Axiom Master GitIgnore ---
+
+# Secrets & Environment (CRITICAL)
+.env
+.env.local
+*.env
+auth.json
+
+# Node.js / Backend
+backend/node_modules/
+npm-debug.log*
+package-lock.json
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android / iOS Build Artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+*.apk
+*.aab
+*.symbols
+*.map.json
+
+# Unity (Heavy Folders - DO NOT SYNC)
+/[Uu]nity/Library/
+/[Uu]nity/Temp/
+/[Uu]nity/Obj/
+/[Uu]nity/Build/
+/[Uu]nity/Logs/
+/[Uu]nity/MemoryCaptures/
+/[Uu]nity/UserSettings/
+
+# IDE / OS / Cloud Workspace
+.idx/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.history
+migrate_working_dir/
+*.log
